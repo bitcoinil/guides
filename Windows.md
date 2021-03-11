@@ -1,10 +1,10 @@
 # BitcoinIL Windows Setup
 
-Download the installation from __placeholder for link__.
+Download the installation file: [bitcoinil-0.21.0-win64-setup.exe](https://github.com/bitcoinil/guides/raw/main/assets/binaries/windows/bitcoinil-0.21.0-win64-setup.exe).
 
 After running the installer, for testnet activate the BitcoinIL Test.
 
-__placeholder for shortcut testnet screenshot__
+!(Installation Wizard)[https://github.com/bitcoinil/guides/raw/main/assets/images/windows/install-1.png]
 
 A window will show up similar to this:
 
