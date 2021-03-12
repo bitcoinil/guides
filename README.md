@@ -18,6 +18,8 @@ Guide: [BitcoinIL Windows Wallet and Miner Installation Guide](https://github.co
 
 Wallet Binaries: [BitcoinIL-Qt.dmg](https://github.com/bitcoinil/guides/raw/main/assets/binaries/osx/BitcoinIL-Qt.dmg)
 
+Guide: [BitcoinIL OSX Wallet Installation Guide](https://github.com/bitcoinil/guides/blob/main/OSX.md)
+
 ### Linux - Ubuntu
 
 Wallet Binaries: [btcil-ubuntu20.zip](https://github.com/bitcoinil/guides/raw/main/assets/binaries/Linux/btcil-ubuntu20.zip)

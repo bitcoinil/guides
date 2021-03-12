@@ -14,7 +14,7 @@ Stay tuned for further announcements!
 
 ## Get Started
 
-### Wallet
+### Wallet Binaries
 
 Download BitcoinIL for Windows: [bitcoinil-0.21.0-win64-setup.exe](/assets/downloads/binaries/windows/bitcoinil-0.21.0-win64-setup.exe)
 
@@ -22,7 +22,11 @@ Download BitcoinIL for OSX: [BitcoinIL-Qt.dmg](/assets/downloads/binaries/osx/Bi
 
 Download BitcoinIL for Linux Ubuntu: [btcil-ubuntu20.zip](/assets/downloads/binaries/osx/btcil-ubuntu20.zip)
 
+### Installation Guides
+
 [BitcoinIL Windows Wallet and Miner Installation Guide](./install/windows.html)
+
+[BitcoinIL OSX Wallet Installation Guide](./install/osx.html)
 
 ## Motivation
 
