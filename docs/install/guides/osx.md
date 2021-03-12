@@ -83,7 +83,7 @@ Now we need our wallet synchronized with the network, to do that we'll need to m
 
 ![Wallet Console](https://github.com/bitcoinil/guides/raw/main/assets/images/osx/wallet/wallet-console.png)
 
-![Wallet Empty Console](https://github.com/bitcoinil/guides/raw/main/assets/images/osx/wallet/wallet-console.png)
+![Wallet Empty Console](https://github.com/bitcoinil/guides/raw/main/assets/images/osx/wallet/wallet-console-empty.png)
 
 At the bottom of this screen there's a text input which we will use to issue commands to the wallet - enter the command:
 
