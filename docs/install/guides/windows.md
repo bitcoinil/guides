@@ -2,7 +2,7 @@
 
 ## Step 1 - Download & Install
 
-Download the installation file: [bitcoinil-0.21.0-win64-setup.exe](https://github.com/bitcoinil/guides/raw/main/assets/binaries/windows/bitcoinil-0.21.0-win64-setup.exe).
+Download the installation file: [bitcoinil-0.21.0-win64-setup.exe](https://guides.bitcoinil.org/assets/binaries/windows/bitcoinil-0.21.0-win64-setup.exe).
 
 The Browser or Windows might warn you that the file is not from a known origin and you should be careful - that's a great suggestion at all times especially when it comes to Bitcoin and crypto! That being said do be careful and make sure you only down from verified sources and do not download from uncomfirmed links or publications.
 
@@ -185,13 +185,13 @@ Create a new file named `run-testnet.bat` and place it alongside the other CPUMi
 Edit the file (Right click on the file and click Edit) and add the following text to the file:
 
 ```bash
-cpuminer-aes-sse42.exe --coinbase-addr=YOUR_ADDRESS_HERE --algo=x17 -o http://127.0.0.1:18223 -u bitcoinil -p talisawesome N69iq1 --no-stratum --no-longpoll -t 10 --debug
+cpuminer-aes-sse42.exe --coinbase-addr=YOUR_ADDRESS_HERE --algo=x17 -o http://127.0.0.1:18223 -u bitcoinil -p talisawesome --no-stratum --no-longpoll -t 10 --debug
 ```
 
 Replace the string `YOUR_ADDRESS_HERE` with the address generated in the previous step, in my case it's: `moVw1tzfSDudWSBJS75zoGoMVVjtRXrAQP`, and my `run-testnet.bat` file looks like this once properly edited:
 
 ```bash
-cpuminer-aes-sse42.exe --coinbase-addr=moVw1tzfSDudWSBJS75zoGoMVVjtRXrAQP --algo=x17 -o http://127.0.0.1:18223 -u bitcoinil -p talisawesome N69iq1 --no-stratum --no-longpoll -t 10 --debug
+cpuminer-aes-sse42.exe --coinbase-addr=moVw1tzfSDudWSBJS75zoGoMVVjtRXrAQP --algo=x17 -o http://127.0.0.1:18223 -u bitcoinil -p talisawesome --no-stratum --no-longpoll -t 10 --debug
 ```
 
 ![run-testnet.bat contents](https://github.com/bitcoinil/guides/raw/main/assets/images/windows/miner/run-testnet-bat-contents.png)
@@ -211,3 +211,13 @@ After a few minutes your miner should begin to find blocks and you will see the 
 If you leave your computer for a few hours mining you wallet should display the block reward transactions like this:
 
 ![CPUMiner Mining](https://github.com/bitcoinil/guides/raw/main/assets/images/windows/miner/wallet-mined.png)
+
+## Mining Survey
+
+Hopefully following this guide you've managed to both setup a wallet and a miner for BitcoinIL on your windows machine!
+
+We're conducting a global open survey until the launch of the mainnet of testnet miners - if you'd like to participate simply send 1 Test BTCIL to: `ti1qls36j7mg5fdsyg38c5rwtfvslx6qasvypphlfa`, Thank you!
+
+## Faucet
+
+If you'd like to receive a few testnet BTCIL coins give us a shoutout on the [platform of your choosing](/#social-networks) with your address and we'll send some your way to get you started!
