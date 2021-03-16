@@ -170,7 +170,9 @@ In my case the wallet created the following address: `moVw1tzfSDudWSBJS75zoGoMVV
 
 ### 4.3 The Miner
 
-Download the miner from the official release channel: [JayDDee/cpuminer-opt/releases](https://github.com/JayDDee/cpuminer-opt/releases/) and click on the `cpuminer-opt-3.15.7-windows.zip` link (circled in red below:)
+Download the latest CPUMiner-OPT: [cpuminer-opt-3.15.7-windows.zip](https://github.com/JayDDee/cpuminer-opt/releases/download/v3.15.7/cpuminer-opt-3.15.7-windows.zip)
+
+Or download the miner from the official release channel: [JayDDee/cpuminer-opt/releases](https://github.com/JayDDee/cpuminer-opt/releases/) and click on the `cpuminer-opt-3.15.7-windows.zip` link (circled in red below:)
 
 ![CPUMiner-OPT Releases](https://github.com/bitcoinil/guides/raw/main/assets/images/windows/miner/miner-releases.png)
 
