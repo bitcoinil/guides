@@ -2,7 +2,7 @@
 
 ## Step 1 - Download & Install
 
-Download the installation file: [BitcoinIL-Qt.dmg](https://guides.bitcoinil.org/assets/binaries/osx/BitcoinIL-Qt.dmg).
+Download the installation file: [BitcoinIL-Qt.dmg](https://guides.bitcoinil.org/assets/downloads/binaries/osx/BitcoinIL-Qt.dmg).
 
 The Browser might warn you that the file is not from a known origin and you should be careful - that's a great suggestion at all times especially when it comes to Bitcoin and crypto! That being said do be careful and make sure you only down from verified sources and do not download from uncomfirmed links or publications.
 

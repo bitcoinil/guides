@@ -20,7 +20,7 @@ Download BitcoinIL for Windows: [bitcoinil-0.21.0-win64-setup.exe](/assets/downl
 
 Download BitcoinIL for OSX: [BitcoinIL-Qt.dmg](/assets/downloads/binaries/osx/BitcoinIL-Qt.dmg)
 
-Download BitcoinIL for Linux Ubuntu: [btcil-ubuntu20.zip](/assets/downloads/binaries/osx/btcil-ubuntu20.zip)
+Download BitcoinIL for Linux Ubuntu: [btcil-ubuntu20.zip](/assets/downloads/binaries/linux/btcil-ubuntu20.zip)
 
 ### Installation Guides
 

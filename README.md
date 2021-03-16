@@ -10,19 +10,19 @@ Read below for a more detailed description of the motivation behind BTCIL.
 
 ### Windows
 
-Wallet Binaries: [bitcoinil-0.21.0-win64-setup.exe](https://github.com/bitcoinil/guides/raw/main/assets/binaries/windows/bitcoinil-0.21.0-win64-setup.exe)
+Wallet Binaries: [bitcoinil-0.21.0-win64-setup.exe](https://guides.bitcoinil.org/assets/downloads/binaries/windows/bitcoinil-0.21.0-win64-setup.exe)
 
 Guide: [BitcoinIL Windows Wallet and Miner Installation Guide](https://github.com/bitcoinil/guides/blob/main/Windows.md)
 
 ### Mac OSX
 
-Wallet Binaries: [BitcoinIL-Qt.dmg](https://github.com/bitcoinil/guides/raw/main/assets/binaries/osx/BitcoinIL-Qt.dmg)
+Wallet Binaries: [BitcoinIL-Qt.dmg](https://guides.bitcoinil.org/assets/downloads/binaries/osx/BitcoinIL-Qt.dmg)
 
-Guide: [BitcoinIL OSX Wallet Installation Guide](https://github.com/bitcoinil/guides/blob/main/OSX.md)
+Guide: [BitcoinIL OSX Wallet Installation Guide](https://github.com/bitcoinil/guides/blob/main/docs/install/guides/osx.md)
 
 ### Linux - Ubuntu
 
-Wallet Binaries: [btcil-ubuntu20.zip](https://github.com/bitcoinil/guides/raw/main/assets/binaries/Linux/btcil-ubuntu20.zip)
+Wallet Binaries: [btcil-ubuntu20.zip](https://guides.bitcoinil.org/assets/downloads/binaries/linux/btcil-ubuntu20.zip)
 
 ## Motivation
 
