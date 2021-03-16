@@ -218,7 +218,7 @@ If you leave your computer for a few hours mining you wallet should display the 
 
 Hopefully following this guide you've managed to both setup a wallet and a miner for BitcoinIL on your windows machine!
 
-We're conducting a global open survey until the launch of the mainnet of testnet miners - if you'd like to participate simply send 1 Test BTCIL to: `ti1qls36j7mg5fdsyg38c5rwtfvslx6qasvypphlfa`, Thank you!
+We're conducting a global open survey until the launch of the mainnet of testnet miners - if you'd like to participate simply send 1 Test BTCIL to: [`ti1qls36j7mg5fdsyg38c5rwtfvslx6qasvypphlfa`](https://testexplorer.bitcoinil.org/address/ti1qls36j7mg5fdsyg38c5rwtfvslx6qasvypphlfa), Thank you!
 
 ## Faucet
 
