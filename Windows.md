@@ -1,1 +1,0 @@
-docs/install/guides/windows.md

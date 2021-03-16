@@ -12,7 +12,7 @@ Read below for a more detailed description of the motivation behind BTCIL.
 
 Wallet Binaries: [bitcoinil-0.21.0-win64-setup.exe](https://guides.bitcoinil.org/assets/downloads/binaries/windows/bitcoinil-0.21.0-win64-setup.exe)
 
-Guide: [BitcoinIL Windows Wallet and Miner Installation Guide](https://github.com/bitcoinil/guides/blob/main/Windows.md)
+Guide: [BitcoinIL Windows Wallet and Miner Installation Guide](https://github.com/bitcoinil/guides/blob/main/docs/install/guides/windows.md)
 
 ### Mac OSX
 
