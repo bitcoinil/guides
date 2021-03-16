@@ -71,3 +71,39 @@ Follow us on social networks:
 - Follow our Telegram official announcements channel: https://t.me/itsbtcil
 - Join our Telegram Group: https://t.me/bitcoinilnetwork
 - Join our Subreddit: https://www.reddit.com/r/bitcoinli/
+
+
+# Contributing
+
+## Run Local Jekyll
+
+
+### Install Jekyll
+
+Follow installation instructions to install jekyll locally: https://docs.github.com/en/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll
+
+### Run Locally
+
+Clone the repo to a local directory, and navigate to the `docs` dir.
+
+```sh
+$ git clone git@github.com:bitcoinil/guides.git bitcoinil-guides
+
+$ cd bitcoinil-guides/docs
+```
+
+Run the bundler installation
+
+```sh
+$ bundler install
+```
+
+Now you can launch the local jekyll instance:
+
+```sh
+$ bundle exec jekyll serve
+```
+
+You should now be able to navigate to local port `4000` and see the docs website running: http://127.0.0.1:4000/
+
+💜💐🔥
