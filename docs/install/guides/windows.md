@@ -36,30 +36,16 @@ You'll now see a screen notifying you that the wallet is not synchronized and th
 
 ![Unsynchronized Wallet](https://github.com/bitcoinil/guides/raw/main/assets/images/windows/wallet/wallet-1.png)
 
-You'll now want to allow you wallet to connect to its first node to synchronize, to do that click on `Window` and select `Console`.
-
-![Wallet Console](https://github.com/bitcoinil/guides/raw/main/assets/images/windows/wallet/wallet-addnode.png)
-
-In the bottom-end of the window there's a text input, use it to provide the following command to your wallet:
-
-```
-addnode 178.238.226.217 onetry
-``` 
-
-In some cases the console will reply with `null` and in others nothing will happen - both cases are good for our case.
-
-
-You can now navigate to the `Peers` tab and see if the wallet started communicating with the recently added node and if it's discoving additional nodes.
-
-![Wallet Console](https://github.com/bitcoinil/guides/raw/main/assets/images/windows/wallet/wallet-peers.png)
-
-You can now safely close this window and return back to the main wallet interface - at this point your wallet should begin synchronizing with the network.
-
 ![Wallet Synchronizing](https://github.com/bitcoinil/guides/raw/main/assets/images/windows/wallet/wallet-synchronizing.png)
+
+If you don't see the wallet synchronizing after a few minutes, go to the `Window -> Peers` screen to verify that your wallet is discovering BitcoinIL peers to sync with.
+
+![Wallet Peers](https://github.com/bitcoinil/guides/raw/main/assets/images/windows/wallet/wallet-peers.png)
 
 It should quickly sync and you'll see the wallet showing you the following message:
 
 ![Wallet Synchronized](https://github.com/bitcoinil/guides/raw/main/assets/images/windows/wallet/wallet-synced.png)
+
 
 You can now create your first address to receive BTCIL.
 
