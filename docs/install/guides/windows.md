@@ -186,7 +186,7 @@ cpuminer-aes-sse42.exe --coinbase-addr=moVw1tzfSDudWSBJS75zoGoMVVjtRXrAQP --algo
 
 Save and close the file, and now you can double-click it to run your miner.
 
-> **Note**: You can download the file from this repository and save it as-is, make sure to update the wallet address with yours! Download by right-clicking and 'Save As': [run-testnet.bat](https://github.com/bitcoinil/guides/raw/main/assets/binaries/example-conf/testnet/run-testnet.bat)
+> **Note**: You can download the file from this repository and save it as-is, make sure to update the wallet address with yours! Download by right-clicking and 'Save As': [run-testnet.bat](https://raw.githubusercontent.com/bitcoinil/guides/main/docs/assets/downloads/binaries/exapmle-conf/testnet/run-testnet.bat)
 
 A new command line window will open similar to this:
 
