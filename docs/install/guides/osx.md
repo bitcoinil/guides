@@ -79,23 +79,7 @@ This time around a similar but different screen should appear and the icon shoul
 
 ![Testnet Icon](https://github.com/bitcoinil/guides/raw/main/assets/images/osx/wallet/bitcoinil-core-testnet-icon.png)
 
-Now we need our wallet synchronized with the network, to do that we'll need to manually add a node to our wallet to kickstart the peer discovery process (this will be fixed in upcoming versions). Navigate to `Window -> Console` which will open the wallet console:
-
-![Wallet Console](https://github.com/bitcoinil/guides/raw/main/assets/images/osx/wallet/wallet-console.png)
-
-![Wallet Empty Console](https://github.com/bitcoinil/guides/raw/main/assets/images/osx/wallet/wallet-console-empty.png)
-
-At the bottom of this screen there's a text input which we will use to issue commands to the wallet - enter the command:
-
-```
-addnode 178.238.226.217 onetry
-```
-
-![Wallet Console - `addnode`](https://github.com/bitcoinil/guides/raw/main/assets/images/osx/wallet/wallet-console-addnode.png)
-
-The console might or might not respond with `null` - in any case the wallet should quickly begin to synchronize in the background as it downloads the block from the newly added peer. You can navigate to the `Peers` tab and see detailed information about the peer you've added and any other peers that connected since.
-
-Close the `Console` or `Peers` window and you should see the wallet synchronizing it's blockchain, and once it's done your wallet should show a similar screen:
+Your wallet should start synchronizing its blockchain and once it's done you should see a similar screen:
 
 ![Wallet Ready](https://github.com/bitcoinil/guides/raw/main/assets/images/osx/wallet/wallet-ready.png)
 
