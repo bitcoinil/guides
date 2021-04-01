@@ -89,8 +89,6 @@ My main wallet page will now display the assets held by the wallet:
 
 If you've installed BitcoinIL without changing any of the default settings, such as the installation directory, navigate your file browser to: `C:\Users\[YourUsername]\AppData\Roaming\BitcoinIL`
 
-__placeholder for files screenshot__
-
 ## Step 4 - JSON-RPC and Mining
 
 
@@ -134,6 +132,13 @@ rpcallowip=127.0.0.1
 # rpcport=8332
 
 # RPC Username and password
+rpcuser=bitcoinil
+rpcpassword=talisawesome
+
+# Testnet configuration
+[test]
+server=1
+rpcallowip=127.0.0.1
 rpcuser=bitcoinil
 rpcpassword=talisawesome
 ```
