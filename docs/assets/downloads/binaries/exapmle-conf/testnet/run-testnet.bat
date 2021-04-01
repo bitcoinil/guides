@@ -1,1 +1,0 @@
-cpuminer-aes-sse42.exe --algo=x17 -o  http://127.0.0.1:18223 -u bitcoinil -p talisawesome --coinbase-addr=mtE7Grx7iCQjYmzNyHjvzzYVnCKLN69iq1 --no-stratum --no-longpoll -t 10 --debug
