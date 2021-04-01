@@ -43,6 +43,8 @@ The BitcoinIL Wallet should now launch and you'll see a similar screen:
 
 ## Step 2 - Configuring for Testnet
 
+> # No need after April 1st - You can skip this step
+
 At this point we'll need to edit the `bitcoinil.conf` file to be able to launch the wallet in Testnet mode, for that click on `BitcoinIL Core` next to the  symbol at the top left of your screen:
 
 ![Open Wallet Preferences](https://github.com/bitcoinil/guides/raw/main/assets/images/osx/wallet/wallet-open-preferences.png)

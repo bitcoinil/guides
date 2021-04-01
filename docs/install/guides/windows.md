@@ -122,14 +122,11 @@ Add the following to the file:
 # Expose the RPC/JSON API
 server=1
 
-# Activate the wallet in Testnet mode
-testnet=1
-
 # Allow only local machine to access bitcoind
 rpcallowip=127.0.0.1
 
 # RPC Port to use - comment out for Testnet
-# rpcport=8332
+rpcport=8332
 
 # RPC Username and password
 rpcuser=bitcoinil
@@ -157,7 +154,7 @@ The console will output a new legacy address that you need to copy to a safe pla
 
 ![Wallet Created Legacy Address](https://github.com/bitcoinil/guides/raw/main/assets/images/windows/wallet/wallet-legacy-address-created.png)
 
-In my case the wallet created the following address: `moVw1tzfSDudWSBJS75zoGoMVVjtRXrAQP`
+In my case the wallet created the following address: `18FuPB479Y6tjgv66oaKCPhFxxUxBJJsTF`
 
 ### 4.3 The Miner
 
@@ -178,20 +175,20 @@ Create a new file named `run-testnet.bat` and place it alongside the other CPUMi
 Edit the file (Right click on the file and click Edit) and add the following text to the file:
 
 ```bash
-cpuminer-aes-sse42.exe --coinbase-addr=YOUR_ADDRESS_HERE --algo=x17 -o http://127.0.0.1:18223 -u bitcoinil -p talisawesome --no-stratum --no-longpoll -t 10 --debug
+cpuminer-aes-sse42.exe --coinbase-addr=YOUR_ADDRESS_HERE --algo=x17 -o http://127.0.0.1:8223 -u bitcoinil -p talisawesome --no-stratum --no-longpoll -t 10 --debug
 ```
 
-Replace the string `YOUR_ADDRESS_HERE` with the address generated in the previous step, in my case it's: `moVw1tzfSDudWSBJS75zoGoMVVjtRXrAQP`, and my `run-testnet.bat` file looks like this once properly edited:
+Replace the string `YOUR_ADDRESS_HERE` with the address generated in the previous step, in my case it's: `18FuPB479Y6tjgv66oaKCPhFxxUxBJJsTF`, and my `run.bat` file looks like this once properly edited:
 
 ```bash
-cpuminer-aes-sse42.exe --coinbase-addr=moVw1tzfSDudWSBJS75zoGoMVVjtRXrAQP --algo=x17 -o http://127.0.0.1:18223 -u bitcoinil -p talisawesome --no-stratum --no-longpoll -t 10 --debug
+cpuminer-aes-sse42.exe --coinbase-addr=18FuPB479Y6tjgv66oaKCPhFxxUxBJJsTF --algo=x17 -o http://127.0.0.1:8223 -u bitcoinil -p talisawesome --no-stratum --no-longpoll -t 10 --debug
 ```
 
 ![run-testnet.bat contents](https://github.com/bitcoinil/guides/raw/main/assets/images/windows/miner/run-testnet-bat-contents.png)
 
 Save and close the file, and now you can double-click it to run your miner.
 
-> **Note**: You can download the file from this repository and save it as-is, make sure to update the wallet address with yours! Download by right-clicking and 'Save As': [run-testnet.bat](https://raw.githubusercontent.com/bitcoinil/guides/main/docs/assets/downloads/binaries/exapmle-conf/testnet/run-testnet.bat)
+> **Note**: You can download the file from this repository and save it as-is, make sure to update the wallet address with yours! Download by right-clicking and 'Save As': [run.bat](https://raw.githubusercontent.com/bitcoinil/guides/main/docs/assets/downloads/binaries/exapmle-conf/mainnet/run.bat)
 
 A new command line window will open similar to this:
 
@@ -209,7 +206,7 @@ If you leave your computer for a few hours mining you wallet should display the 
 
 Hopefully following this guide you've managed to both setup a wallet and a miner for BitcoinIL on your windows machine!
 
-We're conducting a global open survey until the launch of the mainnet of testnet miners - if you'd like to participate simply send 1 Test BTCIL to: [`ti1qls36j7mg5fdsyg38c5rwtfvslx6qasvypphlfa`](https://testexplorer.bitcoinil.org/address/ti1qls36j7mg5fdsyg38c5rwtfvslx6qasvypphlfa), Thank you!
+We're conducting a global open survey until the launch of the mainnet of testnet miners - if you'd like to participate simply send 1 Test BTCIL to: [`il1qxk00fvuu3t8kug2d3fnd4p7gydyr6ja8wu9540`](https://explorer.bitcoinil.org/address/il1qxk00fvuu3t8kug2d3fnd4p7gydyr6ja8wu9540), Thank you!
 
 ## Faucet
 
