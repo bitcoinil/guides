@@ -73,8 +73,7 @@ If you've installed BitcoinIL without changing any of the default settings, such
 
 We'll need a `Legacy` address for our miner to be able to send us the block rewards, to do that we'll create a new address and make sure the `Generate native segwit (Bech32) address is **Unchecked**:
 
-> REPLACE:
-> ![Wallet Legacy Address in Console](https://github.com/bitcoinil/guides/raw/main/assets/images/windows/wallet/wallet-legacy-address.png)
+![Wallet Legacy Address in Console](https://github.com/bitcoinil/guides/raw/main/assets/images/windows/wallet/wallet-legacy-address.png)
 
 The wallet will generate a new legacy address which you can copy and use with miners and other legacy-address-requiring software.
 
@@ -262,6 +261,7 @@ geekminer.exe --algo=x17 -o stratum+tcp://btcilpool.com:8228 --segwit -p talisaw
 }
 ```
 - Create `start-btcil.bat`:
+
 ```sh
 @echo off
 
