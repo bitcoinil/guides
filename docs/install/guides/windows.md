@@ -212,7 +212,7 @@ geekminer.exe --algo=x17 -o stratum+tcp://btcilpool.com:8228 --segwit -p talisaw
 #### SGMiner GM
 
 - Github: [genesismining/sgminer-gm](https://github.com/genesismining/sgminer-gm)
-- Download: [https://github.com/quasars84/geekminer/releases/](https://github.com/quasars84/geekminer/releases/)
+- Download: [https://github.com/genesismining/sgminer-gm/releases](https://github.com/genesismining/sgminer-gm/releases)
 - Suitable for: AMD GPU
 - Create `sgminer-btcil.conf`:
 
