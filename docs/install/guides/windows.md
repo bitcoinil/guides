@@ -174,23 +174,20 @@ cpuminer-aes-sse42.exe -a x17 -o stratum+tcp://btcilpool.com:8228 -u __YOUR_ADDR
 
 ```sh
   t-rex.exe -a x17 -o stratum+tcp://btcilpool.com:8228  -u __YOUR_ADDRESS__ -p talisawesome -d 0
-  ```
-
-#### CCMiner KlausT
-
-- Github: [trexminer/T-Rex](https://github.com/nemosminer/ccminer-KlausT-8.21-mod-r14/)
-- Download: [https://github.com/nemosminer/ccminer-KlausT-8.21-mod-r14/releases/](https://github.com/nemosminer/ccminer-KlausT-8.21-mod-r14/releases/)
-- Suitable for: Nvidia GPU
-- Create `run-btcil.bat`:
-
-```sh
-ccminer.exe -a x17 --segwit -o stratum+tcp://btcilpool.com:8228 -u 18FuPB479Y6tjgv66oaKCPhFxxUxBJJsTF -p talisawesome -t 10 -i 20 -d 0 --debug
 ```
 
+Note:
+You might want to consider the following parameters for your GPU health.
+All details at https://github.com/trexminer/T-Rex/ welcome page.
+Each GPU has its own recommended max temperature, so refer to your GPU vendor information.
+```
+  --temperature-limit        GPU shutdown temperature. (default: 0 - disabled)
+  --temperature-start        GPU temperature to enable card after disable. (default: 0 - disabled)
+```
 
 #### CCMiner KlausT
 
-- Github: [trexminer/T-Rex](https://github.com/nemosminer/ccminer-KlausT-8.21-mod-r14/)
+- Github: [nemosminer/ccminer-KlausT](https://github.com/nemosminer/ccminer-KlausT-8.21-mod-r14/)
 - Download: [https://github.com/nemosminer/ccminer-KlausT-8.21-mod-r14/releases/](https://github.com/nemosminer/ccminer-KlausT-8.21-mod-r14/releases/)
 - Suitable for: Nvidia GPU
 - Create `run-btcil.bat`:
@@ -214,8 +211,8 @@ geekminer.exe --algo=x17 -o stratum+tcp://btcilpool.com:8228 --segwit -p talisaw
 
 #### SGMiner GM
 
-- Github: [quasars84/geekminer](https://github.com/genesismining/sgminer-gm)
-- Download: [https://github.com/quasars84/geekminer/releases/](https://github.com/quasars84/geekminer/releases/)
+- Github: [genesismining/sgminer-gm](https://github.com/genesismining/sgminer-gm)
+- Download: [https://github.com/genesismining/sgminer-gm/releases](https://github.com/genesismining/sgminer-gm/releases)
 - Suitable for: AMD GPU
 - Create `sgminer-btcil.conf`:
 
