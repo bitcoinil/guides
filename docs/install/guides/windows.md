@@ -161,7 +161,7 @@ In all configuration and launch files replace `__YOUR_ADDRESS__` string with you
 - Create `run-btcil.bat`:
 
 ```sh
-cpuminer-aes-sse42.exe -a x17 -o stratum+tcp://btcilpool.com:8228 -u __YOUR_ADDRESS__ -p talisawesome
+cpuminer-aes-sse42.exe -a x17 -o stratum+tcp://stratum.btcil.co.il:8736 -u __YOUR_ADDRESS__
 ```
 
 #### T-Rex Miner
@@ -173,7 +173,7 @@ cpuminer-aes-sse42.exe -a x17 -o stratum+tcp://btcilpool.com:8228 -u __YOUR_ADDR
 - Create `run-btcil.bat`:
 
 ```sh
-  t-rex.exe -a x17 -o stratum+tcp://btcilpool.com:8228  -u __YOUR_ADDRESS__ -p talisawesome -d 0
+  t-rex.exe -a x17 -o stratum+tcp://stratum.btcil.co.il:8736  -u __YOUR_ADDRESS__ -d 0
 ```
 
 Note:
@@ -193,7 +193,7 @@ Each GPU has its own recommended max temperature, so refer to your GPU vendor in
 - Create `run-btcil.bat`:
 
 ```sh
-ccminer.exe -a x17 --segwit -o stratum+tcp://btcilpool.com:8228 -u __YOUR_ADDRESS__ -p talisawesome -t 10 -i 20 -d 0 --debug
+ccminer.exe -a x17 --segwit -o stratum+tcp://stratum.btcil.co.il:8736 -u __YOUR_ADDRESS__ -t 10 -i 20 -d 0 --debug
 ```
 
 
@@ -205,7 +205,7 @@ ccminer.exe -a x17 --segwit -o stratum+tcp://btcilpool.com:8228 -u __YOUR_ADDRES
 - Create `run-btcil.bat`:
 
 ```sh
-geekminer.exe --algo=x17 -o stratum+tcp://btcilpool.com:8228 --segwit -p talisawesome -u __YOUR_ADDRESS__ -t 10 --debug
+geekminer.exe --algo=x17 -o stratum+tcp://stratum.btcil.co.il:8736 --segwit -u __YOUR_ADDRESS__ -t 10 --debug
 ```
 
 
@@ -220,9 +220,9 @@ geekminer.exe --algo=x17 -o stratum+tcp://btcilpool.com:8228 --segwit -p talisaw
 {
   "pools" : [
     {
-      "url" : "stratum+tcp://btcilpool.com:8228",
+      "url" : "stratum+tcp://stratum.btcil.co.il:8736",
       "user" : "__YOUR_ADDRESS__",
-      "pass" : "talisawesome"
+      "pass" : "__LABEL__"
     },
   ],
   "intensity" : "18",

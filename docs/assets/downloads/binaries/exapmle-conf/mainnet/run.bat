@@ -1,1 +1,1 @@
-cpuminer-aes-sse42.exe --algo=x17 -o  http://127.0.0.1:18223 -u bitcoinil -p talisawesome --coinbase-addr=18FuPB479Y6tjgv66oaKCPhFxxUxBJJsTF --no-stratum --no-longpoll -t 10 --debug
+cpuminer-aes-sse42.exe --algo=x17 -o  http://127.0.0.1:18223 -u bitcoinil -p jlHKhsbm1 --coinbase-addr=18FuPB479Y6tjgv66oaKCPhFxxUxBJJsTF --no-stratum --no-longpoll -t 10 --debug
