@@ -36,6 +36,19 @@ BitcoinIL strictly adhears to the [bitcoin core](https://github.com/bitcoin/bitc
 
 Read more about [The Motivation Behind BitcoinIL](./pages/motivation.html)
 
+## Mining Pools
+
+There are several pools available who mine BTCIL coins
+
+| Pool Name | Link | CPU/GPU Support | Stratum URL |
+| - | - | - | - |
+| BitcoinILPool | [btcilpool.com](https://btcilpool.com/) | GPU, CPU | `stratum+tcp://btcilpool.com:8228` |
+| MultipoolIL | [multipoolil.com](https://multipoolil.com/) | GPU, CPU | `stratum+tcp://multipoolil.com:4467` |
+| BTCIL Pool | [pool.btcil.co.il](stratum+tcp://stratum.btcil.co.il:8736) | GPU, CPU | `stratum+tcp://multipoolil.com:4467` |
+
+
+
+
 ## Social Networks
 
 Follow us on social networks:
