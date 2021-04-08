@@ -4,13 +4,10 @@ layout: default
 
 Welcome to the Official Guides Website for BitcoinIL!
 
-## Launch Annnouncement
+## Explorer
 
-BitcoinIL Mainnet is planned to be deployed on Thursday, April 1st, 2021 20:00 Israeli Standard Time
-
-The Blockchain will launch with the same parameters as Bitcoin from the block block, from the gensis.
-
-Stay tuned for further announcements!
+- Mainnet: [explorer.bitcoinil.org](https://explorer.bitcoinil.org/)
+- Testnet: [testexplorer.bitcoinil.org](https://testexplorer.bitcoinil.org/)
 
 ## Get Started
 
