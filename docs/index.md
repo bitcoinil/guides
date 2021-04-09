@@ -37,11 +37,12 @@ Read more about [The Motivation Behind BitcoinIL](./pages/motivation.html)
 
 There are several pools available who mine BTCIL coins
 
-| Pool Name | Link | CPU/GPU Support | Stratum URL |
-| - | - | - | - |
-| BitcoinILPool | [btcilpool.com](https://btcilpool.com/) | GPU, CPU | `stratum+tcp://btcilpool.com:8228` |
-| MultipoolIL | [multipoolil.com](https://multipoolil.com/) | GPU, CPU | `stratum+tcp://multipoolil.com:4467` |
-| BTCIL Pool | [pool.btcil.co.il](https://pool.btcil.co.il/) | GPU, CPU | `stratum+tcp://stratum.btcil.co.il:8736` |
+| Pool | CPU/GPU Support | Stratum URL |
+| - | - | - |
+| [btcilpool.com](https://btcilpool.com/) | GPU, CPU | `stratum+tcp://btcilpool.com:8228` |
+| [multipoolil.com](https://multipoolil.com/) | GPU, CPU | `stratum+tcp://multipoolil.com:4467` |
+| [pool.btcil.co.il](https://pool.btcil.co.il/) | GPU, CPU | `stratum+tcp://stratum.btcil.co.il:8736` |
+| [bitcoinilpool.com](http://bitcoinilpool.com/) | GPU, CPU | `stratum+tcp://asia.bitcoinilpool.com:6101` |
 
 
 
