@@ -4,6 +4,10 @@ layout: default
 
 Welcome to the Official Guides Website for BitcoinIL!
 
+## BitcoinIL Whitepaper
+
+Download BitcoinIL Whitepaper: [bitcoinil.pdf](/assets/downloads/bitcoinil.pdf)
+
 ## Explorer
 
 - Mainnet: [explorer.bitcoinil.org](https://explorer.bitcoinil.org/)
